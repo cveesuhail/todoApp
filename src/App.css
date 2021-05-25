@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(100deg, #fd0076 0%, #3600f8 150%);
+}
+
+.mainHeading{
+  
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0 1px 20px #0000005b;
+  width: 100%;
+}
+
+.app .mainHeading h1 {
+  margin: 0;
+  margin-bottom: 15px;
+  color: #fcd6f6cb;
+  
+}
+
+
+
+.app h1,
+h4 {
+  color: #fcd6f6cb;
+}
+
+.app .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app .input {
+  margin-top: 0.8em;
+  width: 100%;
+  height: 2em;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  padding: 5px;
+  background-color: rgba(255, 0, 0, 0);
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 1px 10px #00000052;
+  margin-top: 25px;
+}
+
+.app .input input {
+  width: 100%;
+  height: 1.6em;
+  border-color: transparent;
+  outline-color: transparent;
+  background-color: rgba(255, 0, 0, 0);
+  outline: none;
+  color: #fcd6f6cb;
+}
+
+input::placeholder {
+  color: #fcd6f6cb;
+}
+
+.app i {
+  cursor: pointer;
+  font-size: larger;
+  font-weight: 900;
+  color: #fcd6f6cb;
+  margin-right: 5px;
+}
+
+.list {
+  background-color: rgba(245, 4, 84, 0.11);
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #fcd6f6cb;
+  box-shadow: 0 1px 6px #00000052;
+  text-align: left;
+  padding: 0;
+  margin: 50px;
+}
+
+.active {
+  text-align: left;
+  display: flex;
+  width: 100%;
+  color: #ffffffa9;
+  padding: 15px;
+  background-color: #6f01ff00;
+  border-radius: 10px;
+  color: #fcd6f6cb;
+  box-shadow: 0 1px 6px #00000052;
+}
+
+.active .trash {
+  flex: 1;
+  text-align: right;
+  cursor: pointer;
+}
+
+.app .todos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+.todo-content {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.app .todos .todo {
+  margin-top: 0.8em;
+  width: 100%;
+  /* height          : 2em; */
+
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.app .todos .todo .left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.app .todos .todo .left p {
+  margin-left: 3px;
+  font-size: medium;
+  font-weight: 700;
+  font-style: normal;
+  color: grey;
+}
